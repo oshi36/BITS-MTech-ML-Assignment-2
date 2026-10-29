@@ -1,0 +1,35 @@
+{
+  "Logistic Regression": {
+    "params": {
+      "C": 100
+    },
+    "cv_macro_f1": 0.9352
+  },
+  "Decision Tree": {
+    "params": {
+      "max_depth": 8,
+      "min_samples_leaf": 1
+    },
+    "cv_macro_f1": 0.9223
+  },
+  "KNN": {
+    "params": {
+      "n_neighbors": 9,
+      "weights": "distance"
+    },
+    "cv_macro_f1": 0.9363
+  },
+  "Naive Bayes": {
+    "params": {
+      "var_smoothing": 0.001
+    },
+    "cv_macro_f1": 0.9049
+  },
+  "Support Vector Machine": {
+    "params": {
+      "C": 10,
+      "gamma": "scale"
+    },
+    "cv_macro_f1": 0.9426
+  }
+}
