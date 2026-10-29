@@ -1,9 +1,9 @@
-# 🫘 Dry Bean Variety Classifier — ML Assignment 2
+# 🫘 Dry Bean Variety Classifier - ML Assignment 2
 
 Five classifiers trained on the UCI Dry Bean dataset to identify one of seven dry bean varieties from shape measurements, compared on six metrics and served through an interactive Streamlit app.
 
 - **Live Streamlit app:** `<paste your Streamlit Community Cloud URL here>`
-- **GitHub repository:** `<paste your GitHub repository URL here>`
+- **GitHub repository:** `https://github.com/oshi36/BITS-MTech-ML-Assignment-2`
 
 ---
 
@@ -50,7 +50,7 @@ The task is to predict a bean's **variety (one of 7 classes)** from **16 numeric
 The classes are moderately imbalanced: DERMASON is about 7 times as common as BOMBAY.
 
 **Notable properties of the data**
-- **Strong multicollinearity.** `Area`, `ConvexArea`, `Perimeter` and `EquivDiameter` are almost the same signal: the correlation between `Area` and `ConvexArea` is 1.000, and the others are 0.97–0.99. `Compactness` and `ShapeFactor3` correlate at 0.999.
+- **Strong multicollinearity.** `Area`, `ConvexArea`, `Perimeter,` and `EquivDiameter` are almost the same signal: the correlation between `Area` and `ConvexArea` is 1.000, and the others are 0.97–0.99. `Compactness` and `ShapeFactor3` correlate at 0.999.
 - **BOMBAY is far larger than the rest.** Its mean area is about 173k pixels, against 32k–76k for the other six varieties, so it is easy to separate.
 - **DERMASON and SIRA overlap heavily**, as do BARBUNYA and CALI. These pairs cause most misclassifications.
 
@@ -157,5 +157,4 @@ The app only loads the saved `.joblib` pipelines and calls `predict` / `predict_
 
 ## Reference
 
-- **Dataset:** Dry Bean [Dataset]. (2020). UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/602/dry+bean+dataset — DOI: https://doi.org/10.24432/C50S4B
-- **Original paper:** Koklu, M. and Ozkan, I.A. (2020). *Multiclass classification of dry beans using computer vision and machine learning techniques.* Computers and Electronics in Agriculture, 174, 105507.
+- **Dataset:** Dry Bean [Dataset]. (2020). UCI Machine Learning Repository. https://archive.ics.uci.edu/dataset/602/dry+bean+dataset - DOI: https://doi.org/10.24432/C50S4B
