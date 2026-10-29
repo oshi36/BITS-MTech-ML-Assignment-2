@@ -2,8 +2,8 @@
 
 Five classifiers trained on the UCI Dry Bean dataset to identify one of seven dry bean varieties from shape measurements, compared on six metrics and served through an interactive Streamlit app.
 
-- **Live Streamlit app:** `<paste your Streamlit Community Cloud URL here>`
-- **GitHub repository:** `https://github.com/oshi36/BITS-MTech-ML-Assignment-2`
+- **Live Streamlit app:** https://2026aj05108-ml-assignment-2.streamlit.app/ 
+- **GitHub repository:** https://github.com/oshi36/BITS-MTech-ML-Assignment-2
 
 ---
 
