@@ -33,7 +33,6 @@ The task is to predict a bean's **variety (one of 7 classes)** from **16 numeric
 | Size (12 dimensional features) | `Area`, `Perimeter`, `MajorAxisLength`, `MinorAxisLength`, `AspectRation`*, `Eccentricity`, `ConvexArea`, `EquivDiameter`, `Extent`, `Solidity`, `roundness`, `Compactness` |
 | Shape forms (4) | `ShapeFactor1`, `ShapeFactor2`, `ShapeFactor3`, `ShapeFactor4` |
 
-\* Column names are kept exactly as in the original file (including the `AspectRation` spelling).
 
 **Class distribution (raw data)**
 
@@ -67,7 +66,7 @@ The classes are moderately imbalanced: DERMASON is about 7 times as common as BO
 
 ## c. GitHub repository link
 
-`<paste your GitHub repository URL here>`
+`https://github.com/oshi36/BITS-MTech-ML-Assignment-2`
 
 ```
 drybean-classifier/
